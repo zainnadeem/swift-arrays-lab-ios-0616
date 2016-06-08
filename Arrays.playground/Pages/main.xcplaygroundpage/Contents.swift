@@ -48,13 +48,6 @@
  */
 // write your code here
 
-func lifesEssential(ingredients: Array<String>) -> Bool {
-    if ingredients[0] == "Bread" {
-        return true
-    } else {
-        return false
-    }
-}
 
 /*: question9
  ### 9. Create a function named 'lifesEssential' that accepts a string of arrays as a parameter called 'ingredients' and returns a boolean. Inside the function check to see if the array passed to the function contains the value "Bread" at position 0. If it does, return a true value boolean, if not false.
